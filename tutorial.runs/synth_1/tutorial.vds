@@ -1,0 +1,435 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 21 11:15:20 2016
+# Process ID: 9304
+# Current directory: C:/Users/DongSky/tutorial/tutorial.runs/synth_1
+# Command line: vivado.exe -log tutorial.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tutorial.tcl
+# Log file: C:/Users/DongSky/tutorial/tutorial.runs/synth_1/tutorial.vds
+# Journal file: C:/Users/DongSky/tutorial/tutorial.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tutorial.tcl -notrace
+Command: synth_design -top tutorial -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11168 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 277.441 ; gain = 67.867
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'tutorial' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:40]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:87]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:88]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:89]
+INFO: [Synth 8-3491] module 'IBUFG_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15029' bound to instance 'clk100in_buf' of component 'ibufg_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'IBUFG_LVCMOS33' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15029]
+INFO: [Synth 8-256] done synthesizing module 'IBUFG_LVCMOS33' (1#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15029]
+INFO: [Synth 8-3491] module 'BUFG' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607' bound to instance 'rxclka_bufg' of component 'bufg' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'OBUF_LVCMOS33' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665]
+INFO: [Synth 8-256] done synthesizing module 'OBUF_LVCMOS33' (3#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf2' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:104]
+INFO: [Synth 8-3491] module 'IBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633' bound to instance 'pb_ibuf' of component 'ibuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'IBUF_LVCMOS33' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633]
+INFO: [Synth 8-256] done synthesizing module 'IBUF_LVCMOS33' (4#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:103]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf2' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:104]
+INFO: [Synth 8-3491] module 'IBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633' bound to instance 'pb_ibuf' of component 'ibuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:105]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:103]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf2' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:104]
+INFO: [Synth 8-3491] module 'IBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633' bound to instance 'pb_ibuf' of component 'ibuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:105]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:103]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'segment_ibuf2' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:104]
+INFO: [Synth 8-3491] module 'IBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15633' bound to instance 'pb_ibuf' of component 'ibuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:105]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+INFO: [Synth 8-3491] module 'OBUF_LVCMOS33' declared at 'C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:24665' bound to instance 'ledobuf' of component 'obuf_lvcmos33' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:114]
+WARNING: [Synth 8-614] signal 'point' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:117]
+WARNING: [Synth 8-614] signal 'point' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:317]
+WARNING: [Synth 8-614] signal 'BTNR' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'unlock_flag' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'editpw' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'sw0' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'sw1' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'sw2' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-614] signal 'sw3' is read in the process but is not in the sensitivity list [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:376]
+WARNING: [Synth 8-3848] Net LED16_G in module/entity tutorial does not have driver. [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:24]
+WARNING: [Synth 8-3848] Net LED16_B in module/entity tutorial does not have driver. [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:25]
+WARNING: [Synth 8-3848] Net LED17_B in module/entity tutorial does not have driver. [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:28]
+WARNING: [Synth 8-3848] Net DP in module/entity tutorial does not have driver. [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'tutorial' (5#1) [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:40]
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED16_G
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED16_B
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED17_B
+WARNING: [Synth 8-3331] design tutorial has unconnected port DP
+WARNING: [Synth 8-3331] design tutorial has unconnected port BTNC
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 313.707 ; gain = 104.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 313.707 ; gain = 104.133
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[8]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[9]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tutorial_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tutorial_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 29 instances were transformed.
+  IBUFG_LVCMOS33 => IBUF: 1 instances
+  IBUF_LVCMOS33 => IBUF: 4 instances
+  OBUF_LVCMOS33 => OBUF: 24 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 627.242 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'LED17_G_reg' into 'unlock_flag_reg' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:347]
+INFO: [Synth 8-802] inferred FSM for state register 'm5cntint_reg' in module 'tutorial'
+INFO: [Synth 8-5545] ROM "dis4" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dis4" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "dis0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dis1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dis2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dis3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                              000 | 11111111111111111111111111111111
+*
+                  iSTATE |                              001 | 00000000000000000000000000000000
+                 iSTATE0 |                              010 | 00000000000000000000000000000001
+                 iSTATE1 |                              011 | 00000000000000000000000000000010
+                 iSTATE2 |                              100 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'm5cntint_reg' using encoding 'sequential' in module 'tutorial'
+WARNING: [Synth 8-327] inferring latch for variable 'storage_reg' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:342]
+WARNING: [Synth 8-327] inferring latch for variable 'editpw_reg' [C:/Users/DongSky/tutorial/tutorial.srcs/sources_1/imports/Tutorial/tutorial.vhd:383]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tutorial 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED16_G
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED16_B
+WARNING: [Synth 8-3331] design tutorial has unconnected port LED17_B
+WARNING: [Synth 8-3331] design tutorial has unconnected port DP
+WARNING: [Synth 8-3331] design tutorial has unconnected port BTNC
+WARNING: [Synth 8-3332] Sequential element (mhz_count_reg[9]) is unused and will be removed from module tutorial.
+WARNING: [Synth 8-3332] Sequential element (mhz_count_reg[8]) is unused and will be removed from module tutorial.
+WARNING: [Synth 8-3332] Sequential element (mhz_count_reg[7]) is unused and will be removed from module tutorial.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |BUFG           |     1|
+|2     |CARRY4         |    23|
+|3     |LUT1           |    32|
+|4     |LUT2           |    42|
+|5     |LUT3           |    45|
+|6     |LUT4           |    82|
+|7     |LUT5           |    21|
+|8     |LUT6           |    41|
+|9     |FDCE           |    49|
+|10    |FDPE           |     5|
+|11    |FDRE           |    43|
+|12    |LD             |    17|
+|13    |IBUF           |    17|
+|14    |IBUFG_LVCMOS33 |     1|
+|15    |IBUF_LVCMOS33  |     4|
+|16    |OBUF           |    10|
+|17    |OBUFT          |     4|
+|18    |OBUF_LVCMOS33  |    24|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   461|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 627.242 ; gain = 104.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 627.242 ; gain = 417.668
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 43 instances were transformed.
+  IBUFG_LVCMOS33 => IBUF: 1 instances
+  IBUF_LVCMOS33 => IBUF: 4 instances
+  LD => LDCE: 17 instances
+  OBUF_LVCMOS33 => OBUF: 21 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 44 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 627.242 ; gain = 417.668
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DongSky/tutorial/tutorial.runs/synth_1/tutorial.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 627.242 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 21 11:15:50 2016...

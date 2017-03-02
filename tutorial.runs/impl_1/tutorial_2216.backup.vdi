@@ -1,0 +1,391 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Dec 19 13:17:18 2016
+# Process ID: 2216
+# Current directory: C:/Users/DongSky/tutorial/tutorial.runs/impl_1
+# Command line: vivado.exe -log tutorial.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tutorial.tcl -notrace
+# Log file: C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial.vdi
+# Journal file: C:/Users/DongSky/tutorial/tutorial.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tutorial.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_B'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_G'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_R'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_B'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_G'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_R'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/DongSky/tutorial/tutorial.srcs/constrs_1/imports/Tutorial/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 477.832 ; gain = 267.660
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.802 . Memory (MB): peak = 482.285 ; gain = 4.453
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 18a3713d2
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant propagation | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 976.367 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 18a3713d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 976.367 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 13 Warnings, 13 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 976.367 ; gain = 498.535
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 976.367 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 976.367 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 976.367 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9e37a468
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: d212812b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: d212812b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+Phase 1 Placer Initialization | Checksum: d212812b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+
+Phase 2 Final Placement Cleanup
+Phase 2 Final Placement Cleanup | Checksum: d212812b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: 9e37a468
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 998.156 ; gain = 21.789
+INFO: [Common 17-83] Releasing license: Implementation
+36 Infos, 13 Warnings, 13 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.069 . Memory (MB): peak = 998.156 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 998.156 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 998.156 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 998.156 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 4fb411f7 ConstDB: 0 ShapeSum: 4e839271 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: b0e52819
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:55 . Memory (MB): peak = 1122.742 ; gain = 124.586
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: b0e52819
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:55 . Memory (MB): peak = 1124.680 ; gain = 126.523
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: b0e52819
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:55 . Memory (MB): peak = 1132.797 ; gain = 134.641
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: b0e52819
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:55 . Memory (MB): peak = 1132.797 ; gain = 134.641
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 2 Router Initialization | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 3 Initial Routing
+ Number of Nodes with overlaps = 0
+Phase 3 Initial Routing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4.1 Global Iteration 0 | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 4.2 Global Iteration 1
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4.2 Global Iteration 1 | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 4.3 Global Iteration 2
+
+Phase 4.3.1 Update Timing
+Phase 4.3.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4.3 Global Iteration 2 | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 4.4 Global Iteration 3
+
+Phase 4.4.1 Update Timing
+Phase 4.4.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4.4 Global Iteration 3 | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 4.5 Global Iteration 4
+
+Phase 4.5.1 Update Timing
+Phase 4.5.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4.5 Global Iteration 4 | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 4 Rip-up And Reroute | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 5 Delay and Skew Optimization | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 6.1 Hold Fix Iter | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+Phase 6 Post Hold Fix | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1135.680 ; gain = 137.523
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1136.465 ; gain = 138.309
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1136.465 ; gain = 138.309
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 17502f6fe
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1136.465 ; gain = 138.309
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1136.465 ; gain = 138.309
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 13 Warnings, 13 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:04 ; elapsed = 00:00:57 . Memory (MB): peak = 1136.465 ; gain = 138.309
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1136.465 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/DongSky/tutorial/tutorial.runs/impl_1/tutorial_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file tutorial_power_routed.rpt -pb tutorial_power_summary_routed.pb -rpx tutorial_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+54 Infos, 13 Warnings, 13 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 19 13:19:00 2016...
